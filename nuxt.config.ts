@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ['./app/assets/css/main.css'],
   
   app: {
-    baseURL: '/jeder49.github.io/', // Replace with your repo name
+    baseURL: '/jeder49.github.io/',
     buildAssetsDir: 'assets',
   },
   
