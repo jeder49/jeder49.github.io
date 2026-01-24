@@ -2,10 +2,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
-  css: ['./app/assets/css/main.css'],
+  css: ['~/app/assets/css/main.css'],
   
   app: {
-    baseURL: '/jeder49.github.io/',
+    baseURL: '/',
     buildAssetsDir: 'assets',
   },
   

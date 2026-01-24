@@ -1,3 +1,8 @@
+<script setup>
+  const config = useRuntimeConfig()
+  const baseURL = config.app.baseURL
+</script>
+
 <template>
   <div class="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center p-4">
     <div class="max-w-md w-full">
@@ -5,7 +10,7 @@
         <!-- picture -->
         <div class="relative">
           <img
-            src="/images/profil.png"
+            :src="baseURL + 'images/profile.jpg'"
             alt="Profile"
             class="w-40 h-40 rounded-full object-cover border-4 border-gray-700 shadow-xl"
           />
