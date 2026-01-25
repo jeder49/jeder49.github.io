@@ -5,7 +5,7 @@
         <!-- picture -->
         <div class="relative">
           <img
-            src="images/profile.png"
+            src="/images/profile.png"
             alt="Profile"
             class="w-40 h-40 rounded-full object-cover border-4 border-gray-700 shadow-xl"
           />
